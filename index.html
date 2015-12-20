@@ -8,20 +8,65 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
     <title>Inicio|Facultad de telemática</title>
-
     <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="navbar-fixed-top.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">            
+    <script src="js/ie-emulation-modes-warning.js"></script>
 </head>
 <body>
+	<!-- Navegation bar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Facultad de Telemática</a>
+        </div>
+
+        <div id="navbar" class="navbar-collapse collapse">          
+          <!-- Menu-->
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Inicio<span class="sr-only">(Actual)</span></a></li>
+            <li class="dropdown">
+            	<a href="#"class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Facultad <span class="caret"></span></a>
+            	<ul class="dropdown-menu">
+	                <li><a href="#">Misión y visión</a></li>
+	                <li><a href="#">Historia</a></li>
+	                <li><a href="#">Contacto</a></li>
+	                <li><a href="#">Organigrama</a></li>
+	                <li><a href="#">Personal administrativo</a></li>
+	                <li><a href="#">Áreas de la facultad</a></li>
+	                <li><a href="#">Reglamento del uso de laboratorios</a></li>
+              	</ul>
+            </li>
+            <li class="dropdown">
+            	<a href="#"class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Oferta educativa <span class="caret"></span></a>
+            	<ul class="dropdown-menu">
+	                <li><a href="#">Ingeniero de Software</a></li>
+	                <li><a href="#">Ingeniero de Telemática</a></li>
+              	</ul>
+            </li>
+            <li><a href="#">Posgrado</a></li>
+            <li class="dropdown">
+            	<a href="#"class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Docentes <span class="caret"></span></a>
+            	<ul class="dropdown-menu">
+	                <li><a href="#">Profesores de tiempo completo</a></li>
+	                <li><a href="#">Profesores por horas</a></li>
+	                <li><a href="#">Cuerpos académicos</a></li>	                
+	                <li><a href="#">Tutorías</a></li>
+	                <li><a href="#">Academias de la facultad</a></li>	                
+              	</ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>    
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
